@@ -13,5 +13,8 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.16",
     "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "rollup": "^4.38.0"
   }
 }

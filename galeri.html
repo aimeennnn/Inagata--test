@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <title>Web School</title>
+</head>
+
+<body class="font-[Poppins]">
+    <div class="navbar">
+        <nav class="bg-transparent mt-5 mx-14 rounded-full px-10 top-0 left-0 right-0 z-20 fixed md:backdrop-blur-lg">
+            <div class="container mx-auto flex flex-row justify-between items-center py-2">
+                <div class="logo">
+                    <a href="/" class="flex items-center">
+                        <img src="assets/img/logo.png" alt="Logo" class="h-10 w-auto">
+                    </a>
+                </div>
+
+                <div class="hidden lg:flex space-x-10">
+                    <ul class="flex flex-row gap-x-10">
+                        <li>
+                            <a href="index.html"
+                                class="text-base text-white drop-shadow-2xl hover:text-blue-400 hover:font-semibold transition">
+                                Beranda
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tentangkami.html"
+                                class="text-base text-white drop-shadow-2xl hover:text-blue-400 hover:font-semibold transition">
+                                Tentang Kita
+                            </a>
+                        </li>
+                        <li>
+                            <a href="berita.html"
+                                class="text-base text-white drop-shadow-2xl hover:text-blue-400 hover:font-semibold transition">
+                                Berita
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="text-base text-white drop-shadow-2xl hover:text-blue-400 hover:font-semibold transition">
+                                Galeri
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="text-base text-white drop-shadow-2xl hover:text-blue-400 hover:font-semibold transition">
+                                Kontak
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="hidden lg:block">
+                    <a href="#"
+                        class="bg-blue-400 text-white py-2 px-8 rounded-xl font-medium shadow-md hover:bg-blue-500 transition">
+                        PPOB
+                    </a>
+                </div>
+        </nav>
+    </div>
+
+    <section class="relative bg-white shadow-lg mt-auto mx-auto rounded-2xl overflow-hidden" id="hero">
+        <div class="relative bg-cover bg-center h-screen flex items-center justify-between px-10 xl:px-28"
+            style="background-image: url('assets/img/Frame3637.png'); background-size: cover; background-position: bottom;">
+
+
+            <div class="text-zinc-700">
+                <h1 class="font-bold text-[50px] leading-tight">
+                    Galeri
+                </h1>
+                <p class="mt-4 text-lg text-gray-600 capitalize">
+                    halaman yang akan memberikan <br>
+                    Dokumentasi Kegiatan Sekolah
+                </p>
+            </div>
+
+
+            <div class="flex justify-end absolute bottom-0 right-45">
+                <img src="assets/img/model4.png" alt="Hero Image" class="h-[540px]">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 py-10 mt-18 mb-30">
+        <h2 class="text-4xl font-semibold text-gray-800 py-8 mb-6 text-center">Kumpulan Kegiatan Sekolah</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-6">
+
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="assets/img/galeri 1.png" alt="Kegiatan Belajar" class="w-full h-320px object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800 mt-2 py-1">Belajar Mengajar</h3>
+                    <p class="text-gray-500 text-[2]">
+                        Kegiatan belajar mengajar diadakan setiap <br>
+                        hari Senin hingga Jum'at 
+                    </p>
+                </div>
+            </div>
+    
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="assets/img/galeri2.png" alt="Raport Semester" class="w-full h-32px object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800 mt-2 py-1">Sharing  Session</h3>
+                    <p class="text-gray-500 text-[2]">
+                        Kegiatan menukar pendapat dan pikiran <br>
+                        antara guru dan siswa
+                    </p>
+                </div>
+            </div>
+    
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="assets/img/galeri.png" alt="Jam Belajar Efektif" class="w-full h-32px object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800 mt-2 py-1">Presentasi Projek</h3>
+                    <p class="text-gray-500 text-[2]">
+                        Kegiatan menunjukan hasil pekerjaan <br>
+                        guru untuk melatih keberanian
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="assets/img/galeri3.png" alt="Kegiatan Belajar" class="w-full h-320px object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800 mt-2 py-1">Belajar Mengajar</h3>
+                    <p class="text-gray-500 text-[2]">
+                        Kegiatan belajar mengajar diadakan setiap <br>
+                        hari Senin hingga Jum'at 
+                    </p>
+                </div>
+            </div>
+    
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="assets/img/galeri4.png" alt="Raport Semester" class="w-full h-32px object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800 mt-2 py-1">Sharing  Session</h3>
+                    <p class="text-gray-500 text-[2]">
+                        Kegiatan menukar pendapat dan pikiran <br>
+                        antara guru dan siswa
+                    </p>
+                </div>
+            </div>
+    
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="assets/img/galeri5.png" alt="Jam Belajar Efektif" class="w-full h-32px object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800 mt-2 py-1">Presentasi Projek</h3>
+                    <p class="text-gray-500 text-[2]">
+                        Kegiatan menunjukan hasil pekerjaan <br>
+                        guru untuk melatih keberanian
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="assets/img/galeri6.png" alt="Kegiatan Belajar" class="w-full h-320px object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800 mt-2 py-1">Belajar Mengajar</h3>
+                    <p class="text-gray-500 text-[2]">
+                        Kegiatan belajar mengajar diadakan setiap <br>
+                        hari Senin hingga Jum'at 
+                    </p>
+                </div>
+            </div>
+    
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="assets/img/galeri7.png" alt="Raport Semester" class="w-full h-32px object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800 mt-2 py-1">Sharing  Session</h3>
+                    <p class="text-gray-500 text-[2]">
+                        Kegiatan menukar pendapat dan pikiran <br>
+                        antara guru dan siswa
+                    </p>
+                </div>
+            </div>
+    
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="assets/img/galeri8.png" alt="Jam Belajar Efektif" class="w-full h-32px object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800 mt-2 py-1">Presentasi Projek</h3>
+                    <p class="text-gray-500 text-[2]">
+                        Kegiatan menunjukan hasil pekerjaan <br>
+                        guru untuk melatih keberanian
+                    </p>
+                </div>
+            </div>
+    
+            
+        </div>
+    
+        <!-- Pagination & Info -->
+        <div class="flex justify-between items-center mt-8 text-gray-500 text-sm">
+            <p>Menampilkan 9 Dari 21 Data</p>
+            <div class="flex space-x-2">
+                <a href="#" class="text-black font-semibold">&lt;</a>
+                <a href="#" class="text-blue-500 font-semibold">1</a>
+                <a href="#" class="hover:text-black">2</a>
+                <a href="#" class="hover:text-black">3</a>
+                <a href="#" class="text-black font-semibold">&gt;</a>
+            </div>
+        </div>
+    </section>
+    
+
+</body>
+
+<footer class="bg-white border-t border-gray-300">
+    <div class="max-w-7xl mx-auto px-10 py-10 flex flex-col md:flex-row md:justify-between md:items-start">
+        <div class="md:w-2/5 mr-15">
+            <img src="assets/img/inagatalogo.png" alt="inagata">
+            <p class="text-gray-600 mt-3">
+                Jelajahi semua pengetahuan dan ilmu yang <br>
+                berguna bersama kami, untuk kehidupan yang <br>
+                lebih bermanfaat
+            </p>
+        </div>
+
+        <div class="flex md:w-3/5 justify-around">
+            <div>
+                <h3 class="font-bold text-gray-800">Informasi</h3>
+                <ul class="mt-2 text-gray-600 space-y-2">
+                    <li><a href="#" class="hover:text-blue-500">Artikel</a></li>
+                    <li><a href="#" class="hover:text-blue-500">Galeri</a></li>
+                </ul>
+            </div>
+
+
+            <div>
+                <h3 class="font-bold text-gray-800">Tentang</h3>
+                <ul class="mt-2 text-gray-600 space-y-2">
+                    <li><a href="#" class="hover:text-blue-500">Tentang Kami</a></li>
+                    <li><a href="#" class="hover:text-blue-500">Hubungi Kami</a></li>
+                </ul>
+            </div>
+
+
+            <div>
+                <h3 class="font-bold text-gray-800">Kantor Kami</h3>
+                <p class="text-gray-600 mt-2">
+                    Indonesia <br>
+                    Unnamed road RT 01 RW 02 <br>
+                    Surabaya
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="border-t border-gray-300 text-center py-4 text-gray-600 text-sm">
+        Copyright © 2021. All rights reserved.
+    </div>
+</footer>
+
+
+
+</html>
